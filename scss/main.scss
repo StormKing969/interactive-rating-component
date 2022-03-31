@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import "./shared/variables";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    background: $very-dark-blue;
+}
+
+.container {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: $dark-blue;
+    box-shadow: 0 .3rem .4rem hsl(212, 22%, 12%);
+}
+
+@media screen and (min-width: 370px) {
+    .container {
+        width: 370px;
+    }
+}
+
+
+@import "./components/reviewcard";
+@import "./components/popup";
+@import "./components/footer";

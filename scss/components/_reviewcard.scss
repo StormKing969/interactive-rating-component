@@ -1,0 +1,76 @@
+.icon {
+    align-self: flex-start;
+    margin: 1rem 0 .5rem;
+
+    img {
+        background: $medium-grey;
+        padding: .9rem;
+        border-radius: 50%;
+        width: 15%;
+        height: 10%;
+    }
+}
+
+.card_content {
+    
+    h2 {
+        color: $white;
+    }
+
+    p {
+        color: $white;
+        font-size: .9rem;
+        margin: 1rem 0;
+        font-weight: 400;
+        opacity: .7;
+    }
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin: .5rem 0;
+
+    button {
+        background: $medium-grey;
+        border: none;
+        border-radius: 50%;
+        height: 2.5rem;
+        width: 2.5rem;
+        font-weight: 700;
+        color: $light-grey;
+
+        &:hover {
+            background: $orange;
+            color: $white;
+            cursor: pointer;
+        }
+    }
+}
+
+.rating_clicked {
+    background: $light-grey !important;
+    color: $white !important;
+    box-shadow: 0 0 1rem $very-dark-blue;
+}
+
+.submit_btn {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    background: $orange;
+    border: none;
+    font-weight: 700;
+    margin: 1rem 0;
+    cursor: pointer;
+    box-shadow: 0 .4rem 1rem $very-dark-blue;
+
+    &:hover {
+        background: $white;
+        color: $orange;
+    }
+}
