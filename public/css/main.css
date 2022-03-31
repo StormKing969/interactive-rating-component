@@ -35,6 +35,7 @@ body {
   background: #28323e;
   -webkit-box-shadow: 0 0.3rem 0.4rem #181e25;
           box-shadow: 0 0.3rem 0.4rem #181e25;
+  background: radial-gradient(circle, #28323e 0%, #0f1114 100%);
 }
 
 @media screen and (min-width: 370px) {

@@ -26,6 +26,7 @@ body {
     border-radius: 1rem;
     background: $dark-blue;
     box-shadow: 0 .3rem .4rem hsl(212, 22%, 12%);
+    background: radial-gradient(circle, $dark-blue 0%, $very-dark-blue 100%);
 }
 
 @media screen and (min-width: 370px) {
